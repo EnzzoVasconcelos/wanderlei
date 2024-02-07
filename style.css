@@ -1320,3 +1320,7 @@ body section img {
     
 }
 }
+
+a{
+    color: inherit;
+}
