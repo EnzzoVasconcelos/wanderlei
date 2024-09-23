@@ -935,7 +935,6 @@
     #informacoes-div {
         display: flex;
         flex-direction: column;
-    
     }
     
     #informacoes-div img {
@@ -1190,14 +1189,13 @@ body header img {
 
 #sobre p {
     font-family: 'Inter', sans-serif;
-    margin-top: 10px;
-    font-weight: 300;
-}
+        margin-top: 10px;
+        font-weight: 300;
+    }
 
 #informacoes-div {
     display: flex;
-    flex-direction: row;
-
+    flex-direction: column;
 }
 
 #informacoes-div img {
@@ -1210,11 +1208,11 @@ body header img {
 }
 
 #img {
-   display: flex;
-   flex-direction: column;
-   margin-top: 50px;
-   gap: 20px;
-   margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 20px;
+    margin-left: 50px;
 }
 
 #logo img {
